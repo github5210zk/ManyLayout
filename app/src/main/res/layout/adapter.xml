@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="017年3月，中兴通讯认罪并签署了和解协议，接受了处罚方案。2017年7月20日，在中兴给美方的邮件上，中兴承诺对39个涉事的人员进行处理(4个高管开除，并对35个当事的员工降低奖金)。随后中兴开除了4个高管，但是居然没有对35个员工处理。"
+
+            />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ceshi5" />
+
+
+    </LinearLayout>
+</RelativeLayout>
