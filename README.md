@@ -1,0 +1,2 @@
+# ManyLayout
+使用RecyclerView实现了多布局展示，仿新闻列表，利用随机数的算法无序排列条目布局
